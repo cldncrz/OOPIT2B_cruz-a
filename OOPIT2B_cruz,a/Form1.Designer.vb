@@ -44,6 +44,7 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnprint = New System.Windows.Forms.Button()
+        Me.btnprnt = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -132,6 +133,7 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.btnprnt)
         Me.GroupBox2.Controls.Add(Me.btndelete)
         Me.GroupBox2.Controls.Add(Me.btnupdate)
         Me.GroupBox2.Controls.Add(Me.txtuserid)
@@ -186,7 +188,7 @@ Partial Class Form1
         '
         'btnsearch
         '
-        Me.btnsearch.Location = New System.Drawing.Point(68, 200)
+        Me.btnsearch.Location = New System.Drawing.Point(15, 200)
         Me.btnsearch.Name = "btnsearch"
         Me.btnsearch.Size = New System.Drawing.Size(75, 23)
         Me.btnsearch.TabIndex = 6
@@ -250,6 +252,15 @@ Partial Class Form1
         Me.btnprint.Text = "Print Master List"
         Me.btnprint.UseVisualStyleBackColor = True
         '
+        'btnprnt
+        '
+        Me.btnprnt.Location = New System.Drawing.Point(109, 200)
+        Me.btnprnt.Name = "btnprnt"
+        Me.btnprnt.Size = New System.Drawing.Size(75, 23)
+        Me.btnprnt.TabIndex = 11
+        Me.btnprnt.Text = "Print"
+        Me.btnprnt.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -291,4 +302,5 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents btnprint As Button
+    Friend WithEvents btnprnt As Button
 End Class

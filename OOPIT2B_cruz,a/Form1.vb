@@ -6,6 +6,7 @@
         txtstudcourse.Enabled = False
         btnupdate.Enabled = False
         btnupdate.Enabled = False
+        btnprnt.Enabled = False
     End Sub
 
     Private Sub btnInsert_Click(sender As Object, e As EventArgs) Handles btnInsert.Click
@@ -43,5 +44,9 @@
 
     Private Sub btnprint_Click(sender As Object, e As EventArgs) Handles btnprint.Click
         Form3.Show()
+    End Sub
+
+    Private Sub btnprnt_Click(sender As Object, e As EventArgs) Handles btnprnt.Click
+        Form4.Show()
     End Sub
 End Class

@@ -72,6 +72,7 @@ Module Module1
                 Form1.txtfirst.Enabled = True
                 Form1.txtlast.Enabled = True
                 Form1.txtstudcourse.Enabled = True
+                Form1.btnprnt.Enabled = True
             Else
                 MsgBox("No Record!")
             End If
