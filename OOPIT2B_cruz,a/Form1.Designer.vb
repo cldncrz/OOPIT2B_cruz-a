@@ -43,6 +43,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.btnprint = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -122,7 +123,7 @@ Partial Class Form1
         '
         'btndisplay
         '
-        Me.btndisplay.Location = New System.Drawing.Point(64, 266)
+        Me.btndisplay.Location = New System.Drawing.Point(55, 256)
         Me.btndisplay.Name = "btndisplay"
         Me.btndisplay.Size = New System.Drawing.Size(124, 23)
         Me.btndisplay.TabIndex = 7
@@ -240,11 +241,21 @@ Partial Class Form1
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Firstname:"
         '
+        'btnprint
+        '
+        Me.btnprint.Location = New System.Drawing.Point(55, 294)
+        Me.btnprint.Name = "btnprint"
+        Me.btnprint.Size = New System.Drawing.Size(125, 23)
+        Me.btnprint.TabIndex = 11
+        Me.btnprint.Text = "Print Master List"
+        Me.btnprint.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(523, 343)
+        Me.Controls.Add(Me.btnprint)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.btndisplay)
         Me.Controls.Add(Me.GroupBox1)
@@ -279,4 +290,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents btnprint As Button
 End Class

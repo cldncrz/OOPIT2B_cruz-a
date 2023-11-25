@@ -40,4 +40,8 @@
             MsgBox("Deletion cancelled!")
         End If
     End Sub
+
+    Private Sub btnprint_Click(sender As Object, e As EventArgs) Handles btnprint.Click
+        Form3.Show()
+    End Sub
 End Class
