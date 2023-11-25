@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OOPIT2B_cruz,a", "OOPIT2B_cruz,a\OOPIT2B_cruz,a.vbproj", "{2E3881E3-CECA-485A-82DA-E20EA40253DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E3881E3-CECA-485A-82DA-E20EA40253DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3881E3-CECA-485A-82DA-E20EA40253DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3881E3-CECA-485A-82DA-E20EA40253DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3881E3-CECA-485A-82DA-E20EA40253DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDDFA7A9-EF5C-4298-9A6A-D704EA9925EE}
+	EndGlobalSection
+EndGlobal
